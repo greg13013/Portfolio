@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 
 export const Header = () => {
   const [tailleEcran, setTailleEcran] = useState(window.innerHeight);
@@ -17,10 +18,28 @@ export const Header = () => {
     };
   }
 
+//   function navBar() {
+//     window.addEventListener('scroll', () => {
+//         if (window.scrollY > hauteurEcran*.20 ){
+//             document.querySelector('nav').classList.add('fadeIn');
+//         } else {
+//             document.querySelector('nav').classList.remove('fadeIn');
+//         }
+//       })
+//   }
+
   useEffect(() => {
     window.addEventListener("resize", () => {
       setTailleEcran(getSize().height);
     });
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > hauteurEcran*.20 ){
+            document.querySelector('nav').classList.add('fadeIn');
+        } else {
+            document.querySelector('nav').classList.remove('fadeIn');
+        }
+      })
 
     console.log(hauteurEcran);
 
@@ -30,16 +49,51 @@ export const Header = () => {
   return (
     <div>
       <header style={styles.hauteurImg}>
-          <nav>
-              <a href="#description">
-              Description
-                </a>
-          </nav>
+        <nav >
+          <Link
+          className="navLink"
+            activeClass="active"
+            to="description"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Description
+          </Link>
+          <Link
+          className="navLink"
+            activeClass="active"
+            to="competence"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Competence
+          </Link>
+          <Link
+          className="navLink"
+            activeClass="active"
+            to="projet"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Projets
+          </Link>
+          <Link
+          className="navLink"
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
+        </nav>
         <div className="row banniere">
           <h1 className="textBanniere">Colli Grégory</h1>
-          <h4>
-              Développeur front-end
-          </h4>
+          <h4>Développeur front-end</h4>
         </div>
       </header>
     </div>
