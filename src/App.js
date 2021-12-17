@@ -1,4 +1,3 @@
-import './App.css';
 import { Header } from './components/Header';
 import { Description } from './components/Description';
 import { Footer } from './components/Footer';
@@ -12,7 +11,7 @@ function App() {
       <Header />
       <Description />
       <Competence />
-      <Projet></Projet>
+      <Projet />
       <Contact />
       <Footer />
     </div>

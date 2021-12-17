@@ -3,14 +3,14 @@ import React from "react";
 export const Description = () => {
   return (
     <section id="description" className="row">
-      <div className="col s4 flexJustifyEnd">
+      <div className="col s12 m4 flexJustifyCenter">
         <img
           src="img/avatar_cp_big.jpg"
           alt=""
           className="circle responsive-img"
         ></img>
       </div>
-      <div className="col s6">
+      <div className="col s12 m8">
         <div>
           <h4>A propos de moi</h4>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse

@@ -34,11 +34,18 @@ export const Header = () => {
     });
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > hauteurEcran*.20 ){
+        if ((window.scrollY > hauteurEcran*.20)&& (window.scrollY < hauteurEcran) && (getSize().width > 768) ){
             document.querySelector('nav').classList.add('fadeIn');
         } else {
             document.querySelector('nav').classList.remove('fadeIn');
+            if (window.scrollY < hauteurEcran*.20) {
+                document.querySelector('nav').classList.remove('opaque')
+            }
+            else {
+                document.querySelector('nav').classList.add('opaque')
+            }
         }
+        
       })
 
     console.log(hauteurEcran);
@@ -48,7 +55,7 @@ export const Header = () => {
 
   return (
     <div>
-      <header style={styles.hauteurImg}>
+      <header id="header" style={styles.hauteurImg}>
         <nav >
           <Link
           className="navLink"

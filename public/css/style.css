@@ -21,17 +21,34 @@ nav{
     display: flex;
     justify-content: center;
     position: fixed;
-    transition: .5s ease-in-out;
+    transition: opacity .2s ease-in-out;
 }
 
 p {
     color: #838C95;
 }
 
+nav > .active {
+    color: #F06000;
+}
+
+footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #0f0f0f;
+    color: #636262;
+    display: flex;
+    justify-content: center;    
+}
+
 .fadeIn{
     opacity: 0;
-    transition: .5s ease-in-out;
+    transition: opacity .3s ease-in;
     /* animation: fadeIn .7s ease-in-out; */
+}
+
+.opaque{
+    background-color: #333;
 }
 
 .navLink{
@@ -68,6 +85,17 @@ p {
     padding: 4rem;
 }
 
+.flexJustifyCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .mobileCenter{
+        justify-content: center !important;
+    }
+}
 .flexJustifyEnd{
     display: flex;
     justify-content: end;

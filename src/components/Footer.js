@@ -2,8 +2,10 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div>
-            
-        </div>
+        <footer>
+            <div>
+                github
+            </div>
+        </footer>
     )
 }

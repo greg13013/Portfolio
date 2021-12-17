@@ -4,12 +4,12 @@ export const Competence = () => {
   return (
     <section id="competence" className="section">
       <div className="row">
-        <div className="col s3 offset-s1 flexJustifyEnd">
+        <div className="col s12 m5 xl3 offset-xl1 flexJustifyEnd mobileCenter">
           <h4>
             <span className="titreCompetence">Formation</span>
           </h4>
         </div>
-        <div className="col s5 offset-s1">
+        <div className="col s12 m5 xl5 offset-xl1">
           <h4>BTS SIO (Service Informatique aux Organisations)</h4>
           <p className="info">Lycée marie curie - Juin 9999</p>
           <p className="">
@@ -21,15 +21,15 @@ export const Competence = () => {
         </div>
       </div>
       <div className="">
-        <div className="col s8 divider"></div>
+        <div className="col s12 m8 divider"></div>
       </div>
       <div className="row">
-        <div className="col s3 offset-s1 flexJustifyEnd">
+        <div className="col s12 m5 xl3 offset-xl1 flexJustifyEnd mobileCenter">
           <h4>
             <span className="titreCompetence">Compétences</span>
           </h4>
         </div>
-        <div className="col s5 offset-s1">
+        <div className="col s12 m5 xl5 offset-xl1">
           <h4>BTS SIO (Service Informatique aux Organisations)</h4>
           <p className="info">Lycée marie curie - Juin 9999</p>
           <p className="">
@@ -41,7 +41,7 @@ export const Competence = () => {
         </div>
       </div>
       <div className="">
-        <div className="col s8 divider"></div>
+        <div className="col s12 m8 divider"></div>
       </div>
     </section>
   );
