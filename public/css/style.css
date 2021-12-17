@@ -38,7 +38,8 @@ footer {
     background-color: #0f0f0f;
     color: #636262;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    position: relative;   
 }
 
 .fadeIn{
@@ -91,11 +92,7 @@ footer {
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-    .mobileCenter{
-        justify-content: center !important;
-    }
-}
+
 .flexJustifyEnd{
     display: flex;
     justify-content: end;
@@ -121,4 +118,48 @@ footer {
 
 .info{
     font-style: italic;
+}
+
+.fab {
+    color: #525252;
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+}
+
+.fab:hover {
+    transition: .2s ease-in-out;
+    color: white;
+}
+
+.go-top{
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+    font-size: 2rem;
+    background-color: #525252;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transition: background-color .2s ease-in-out;
+}
+
+.go-top:hover{
+    background-color: #0F9095;
+    transition: background-color .2s ease-in-out;
+}
+
+.alignIcon{
+    position: relative;
+    top: 24%;
+    left: 35%;
+    height: 100% !important; 
+    width: 100% !important; 
+    color: white;
+    font-size: 2rem;
+}
+@media screen and (max-width: 600px) {
+    .mobileCenter{
+        justify-content: center !important;
+    }
 }
