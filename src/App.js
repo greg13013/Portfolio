@@ -4,16 +4,35 @@ import { Footer } from './components/Footer';
 import { Competence } from './components/Competence';
 import { Projet } from './components/Projet';
 import { Contact } from './components/Contact';
+import { Parallax } from './components/Parallax';
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const cheminParallax = 'img/i9iqra3s5y111.jpg';
+  const [resumeData, setResumeData] = useState({});
+
+  useEffect(() => {
+    axios.get('/resumeData.json').then((res) => {
+      setResumeData(res.data);
+      console.log(resumeData);
+    }).catch((err) => {
+      console.log(err);
+    })
+  }, []);
+
+
+
   return (
     <div>
-      <Header />
-      <Description />
+      <Header data={resumeData.main} />
+      <Description data={resumeData.main} />
       <Competence />
       <Projet />
+      <Parallax cheminImage={cheminParallax} />
       <Contact />
-      <Footer />
+      <Footer data={resumeData.main} />
     </div>
   );
 }

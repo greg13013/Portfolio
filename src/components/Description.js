@@ -1,11 +1,20 @@
 import React from "react";
 
-export const Description = () => {
+export const Description = ({data}) => {
+
+if (data) {
+    var description = data.bio;
+    var imageProfil = data.image;
+    var ville = data.adresse.ville;
+    var tel = data.tel;
+    var email = data.email;
+}
+
   return (
     <section id="description" className="row">
       <div className="col s12 m4 flexJustifyCenter">
         <img
-          src="img/avatar_cp_big.jpg"
+          src={imageProfil}
           alt=""
           className="circle responsive-img"
         ></img>
@@ -13,41 +22,12 @@ export const Description = () => {
       <div className="col s12 m8">
         <div>
           <h4>A propos de moi</h4>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse
-          eaque nostrum quae illum cumque impedit eligendi? Ducimus vel minima
-          molestiae dicta deleniti perspiciatis eligendi at, tempore, provident
-          impedit aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Facilis esse eaque nostrum quae illum cumque impedit eligendi?
-          Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at,
-          tempore, provident impedit aliquid? Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Facilis esse eaque nostrum quae illum
-          cumque impedit eligendi? Ducimus vel minima molestiae dicta deleniti
-          perspiciatis eligendi at, tempore, provident impedit aliquid? Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaque
-          nostrum quae illum cumque impedit eligendi? Ducimus vel minima
-          molestiae dicta deleniti perspiciatis eligendi at, tempore, provident
-          impedit aliquid?
-        </div>
-        <div>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse
-          eaque nostrum quae illum cumque impedit eligendi? Ducimus vel minima
-          molestiae dicta deleniti perspiciatis eligendi at, tempore, provident
-          impedit aliquid? Lorem ipsum dolor sit, amet consectetur adipisicing
-          elit. Facilis esse eaque nostrum quae illum cumque impedit eligendi?
-          Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at,
-          tempore, provident impedit aliquid? Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Facilis esse eaque nostrum quae illum
-          cumque impedit eligendi? Ducimus vel minima molestiae dicta deleniti
-          perspiciatis eligendi at, tempore, provident impedit aliquid? Lorem
-          ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaque
-          nostrum quae illum cumque impedit eligendi? Ducimus vel minima
-          molestiae dicta deleniti perspiciatis eligendi at, tempore, provident
-          impedit aliquid?
+          {description}
         </div>
         <h4>Coordonées</h4>
-        <div>Marseille</div>
-        <div>06 64 54 78 80</div>
-        <div>colli.gregory.13@gmail.com</div>
+        <div>{ville}</div>
+        <div>{tel}</div>
+        <div>{email}</div>
       </div>
     </section>
   );

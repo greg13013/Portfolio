@@ -1,0 +1,72 @@
+{
+  "main": {
+    "nom": "Colli Grégory",
+    "statut": "Développeur front-end",
+    "description": "I eat, sleep and breathe React",
+    "image": "img/avatar_cp_big.jpg",
+    "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaque nostrum quae illum cumque impedit eligendi? Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at, tempore, providentimpedit aliquid? Lorem ipsum dolor sit, amet consectetur adipisicingelit. Facilis esse eaque nostrum quae illum cumque impedit eligendi?Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at,tempore, provident impedit aliquid? Lorem ipsum dolor sit, ametconsectetur adipisicing elit. Facilis esse eaque nostrum quae illumcumque impedit eligendi? Ducimus vel minima molestiae dicta delenitiperspiciatis eligendi at, tempore, provident impedit aliquid? Loremipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaquenostrum quae illum cumque impedit eligendi? Ducimus vel minimamolestiae dicta deleniti perspiciatis eligendi at, tempore, providentimpedit aliquid?",
+    "email": "colli.gregory.13@gmail.com",
+    "tel": "06 64 54 78 80",
+    "adresse": {
+      "ville": "Marseille"
+    },
+    "website": "https://colli-gregory-portfolio.herokuapp.com/",
+    "social": [
+      {
+        "nom": "linkedin",
+        "url": "https://www.linkedin.com/in/gr%C3%A9gory-colli-9080228b/",
+        "className": "fab fa-linkedin"
+      },
+      {
+        "nom": "github",
+        "url": "https://github.com/greg13013",
+        "className": "fab fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "messageCompetence": "Mes compétences techniques",
+    "formation": [
+      {
+        "ecole": "Lycée Marie Curie",
+        "diplome": "Juin 9999",
+        "description": "bla bla bla"
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs"
+      },
+      {
+        "name": "Git"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Web Development"
+      }
+    ]
+  },
+  "portfolio": {
+    "projets": [
+      {
+        "titre": "Snapchat Clone (React JS)",
+        "image": "snapchat.jpg",
+        "url": "https://youtu.be/1kGISk5ft2w"
+      },
+      {
+        "title": "Gmail Clone (React JS)",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://youtu.be/b7nrXjS6Dqs"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "https://youtu.be/QaYts9sPmcY"
+      }
+    ]
+  }
+}

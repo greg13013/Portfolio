@@ -1,7 +1,18 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 
-export const Footer = () => {
+export const Footer = ({data}) => {
+
+    if (data) {
+        var sociaux = data.social.map((social,index) => {
+            return (
+                <a target='_blank' href={social.url} key={index}>
+                    <i className={social.className}></i>
+                </a>
+            )
+        })
+    }
+
     return (
         <footer>
             <Link className="navLink go-top"
@@ -13,7 +24,7 @@ export const Footer = () => {
                 <i className="alignIcon fas fa-sort-up"></i>
             </Link>
             <div>
-                <a target='_blank' href='https://github.com/greg13013'><i className="fab fa-github"></i></a>
+               {sociaux}
             </div>
         </footer>
     )

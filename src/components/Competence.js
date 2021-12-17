@@ -43,11 +43,6 @@ export const Competence = () => {
       <div className="">
         <div className="col s12 m8 divider"></div>
       </div>
-      <div className="parallax-container">
-        <div className="parallax">
-          <img src="img/i9iqra3s5y111.jpg" />
-        </div>
-      </div>
     </section>
   );
 };

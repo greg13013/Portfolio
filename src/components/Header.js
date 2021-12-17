@@ -1,9 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 
-export const Header = () => {
+export const Header = ({ data }) => {
   const [tailleEcran, setTailleEcran] = useState(window.innerHeight);
   const hauteurEcran = window.innerHeight;
+
+  console.log(data);
+
+  if (data) {
+    var nom = data.nom;
+    var statut = data.statut;
+    var sociaux = data.social.map((social, index) => {
+      return (
+      <a target='_blank' key={index} href={social.url}>
+        <i className={social.className}></i>
+      </a>)
+    });
+  }
 
   const styles = {
     hauteurImg: {
@@ -18,35 +31,27 @@ export const Header = () => {
     };
   }
 
-//   function navBar() {
-//     window.addEventListener('scroll', () => {
-//         if (window.scrollY > hauteurEcran*.20 ){
-//             document.querySelector('nav').classList.add('fadeIn');
-//         } else {
-//             document.querySelector('nav').classList.remove('fadeIn');
-//         }
-//       })
-//   }
-
   useEffect(() => {
     window.addEventListener("resize", () => {
       setTailleEcran(getSize().height);
     });
 
-    window.addEventListener('scroll', () => {
-        if ((window.scrollY > hauteurEcran*.20)&& (window.scrollY < hauteurEcran) && (getSize().width > 768) ){
-            document.querySelector('nav').classList.add('fadeIn');
+    window.addEventListener("scroll", () => {
+      if (
+        window.scrollY > hauteurEcran * 0.2 &&
+        window.scrollY < hauteurEcran &&
+        getSize().width > 768
+      ) {
+        document.querySelector("nav").classList.add("fadeIn");
+      } else {
+        document.querySelector("nav").classList.remove("fadeIn");
+        if (window.scrollY < hauteurEcran * 0.2) {
+          document.querySelector("nav").classList.remove("opaque");
         } else {
-            document.querySelector('nav').classList.remove('fadeIn');
-            if (window.scrollY < hauteurEcran*.20) {
-                document.querySelector('nav').classList.remove('opaque')
-            }
-            else {
-                document.querySelector('nav').classList.add('opaque')
-            }
+          document.querySelector("nav").classList.add("opaque");
         }
-        
-      })
+      }
+    });
 
     console.log(hauteurEcran);
 
@@ -56,9 +61,9 @@ export const Header = () => {
   return (
     <div>
       <header id="header" style={styles.hauteurImg}>
-        <nav >
+        <nav>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="description"
             spy={true}
@@ -68,7 +73,7 @@ export const Header = () => {
             Description
           </Link>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="competence"
             spy={true}
@@ -78,7 +83,7 @@ export const Header = () => {
             Competence
           </Link>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="projet"
             spy={true}
@@ -88,7 +93,7 @@ export const Header = () => {
             Projets
           </Link>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="contact"
             spy={true}
@@ -99,8 +104,9 @@ export const Header = () => {
           </Link>
         </nav>
         <div className="row banniere">
-          <h1 className="textBanniere">Colli Grégory</h1>
-          <h4>Développeur front-end</h4>
+          <h1 className="textBanniere">{nom}</h1>
+          <h4>{statut}</h4>
+          <p>{sociaux}</p>
         </div>
       </header>
     </div>

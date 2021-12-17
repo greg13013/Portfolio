@@ -134,6 +134,7 @@ footer {
     color: #525252;
     font-size: 2rem;
     transition: .2s ease-in-out;
+    margin: 1rem;
 }
 
 .fab:hover {
@@ -163,8 +164,6 @@ footer {
     position: relative;
     top: 24%;
     left: 35%;
-    height: 100% !important; 
-    width: 100% !important; 
     color: white;
     font-size: 2rem;
 }
