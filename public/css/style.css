@@ -22,6 +22,7 @@ nav{
     justify-content: center;
     position: fixed;
     transition: opacity .2s ease-in-out;
+    z-index: 1;
 }
 
 p {
@@ -30,6 +31,15 @@ p {
 
 nav > .active {
     color: #F06000;
+}
+
+.paddingBottom0{
+    padding-bottom: 0;
+}
+
+.form{
+    margin-bottom: 0;
+    padding: 5rem;
 }
 
 footer {
@@ -157,6 +167,14 @@ footer {
     width: 100% !important; 
     color: white;
     font-size: 2rem;
+}
+
+#contact{
+    background-color: #3a3a3a;
+}
+
+.parallax-container{
+    height: 400px;
 }
 @media screen and (max-width: 600px) {
     .mobileCenter{

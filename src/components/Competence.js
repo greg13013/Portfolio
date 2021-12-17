@@ -2,7 +2,7 @@ import React from "react";
 
 export const Competence = () => {
   return (
-    <section id="competence" className="section">
+    <section id="competence" className="section paddingBottom0">
       <div className="row">
         <div className="col s12 m5 xl3 offset-xl1 flexJustifyEnd mobileCenter">
           <h4>
@@ -42,6 +42,11 @@ export const Competence = () => {
       </div>
       <div className="">
         <div className="col s12 m8 divider"></div>
+      </div>
+      <div className="parallax-container">
+        <div className="parallax">
+          <img src="img/i9iqra3s5y111.jpg" />
+        </div>
       </div>
     </section>
   );
