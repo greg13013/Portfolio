@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
+import Typewriter from "typewriter-effect";
 
 export const Header = ({ data }) => {
   const [tailleEcran, setTailleEcran] = useState(window.innerHeight);
@@ -12,9 +13,9 @@ export const Header = ({ data }) => {
     var statut = data.statut;
     var sociaux = data.social.map((social, index) => {
       return (
-      <a target='_blank' key={index} href={social.url}>
-        <i className={social.className}></i>
-      </a>)
+        <a target='_blank' key={index} href={social.url}>
+          <i className={social.className}></i>
+        </a>)
     });
   }
 
@@ -69,6 +70,7 @@ export const Header = ({ data }) => {
             spy={true}
             smooth={true}
             duration={500}
+            
           >
             Description
           </Link>
@@ -104,8 +106,17 @@ export const Header = ({ data }) => {
           </Link>
         </nav>
         <div className="row banniere">
-          <h1 className="textBanniere">{nom}</h1>
-          <h4>{statut}</h4>
+          <h1 className="textBanniere">
+
+            {nom}</h1>
+          <h4>
+            {statut}
+            <Typewriter options={{
+              strings: ['Angular', 'React'],
+              autoStart: true,
+              loop: true,
+            }}
+            /></h4>
           <p>{sociaux}</p>
         </div>
       </header>

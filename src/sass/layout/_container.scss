@@ -1,0 +1,107 @@
+.paddingBottom0{
+    padding-bottom: 0;
+}
+
+.form{
+    margin-bottom: 0;
+    padding: 5rem;
+}
+
+#description{
+    background-color: #3a3a3a;
+    color: white;
+    padding: 4rem;
+}
+
+.flexJustifyCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flexJustifyEnd{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#competence{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titreCompetence{
+   
+    box-shadow: 0px 3px 0px 0px #11ABB0;
+}
+
+.divider{
+    position: relative;
+    left: 25%;
+    width: 55%;
+}
+
+.info{
+    font-style: italic;
+}
+
+.fab {
+    color: #525252;
+    font-size: 2rem;
+    transition: .2s ease-in-out;
+    margin: 1rem;
+}
+
+.fab:hover {
+    transition: .2s ease-in-out;
+    color: white;
+}
+
+.go-top{
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -30px;
+    font-size: 2rem;
+    background-color: #525252;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    transition: background-color .2s ease-in-out;
+}
+
+.go-top:hover{
+    background-color: #0F9095;
+    transition: background-color .2s ease-in-out;
+}
+
+.alignIcon{
+    position: relative;
+    top: 24%;
+    left: 35%;
+    color: white;
+    font-size: 2rem;
+}
+
+#contact, #projet{
+    background-color: #3a3a3a;
+}
+
+#projet .row {
+    margin-bottom: 0;
+}
+
+.parallax-container{
+    height: 400px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .mobileCenter{
+        justify-content: center !important;
+    }
+}

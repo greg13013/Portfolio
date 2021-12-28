@@ -1,0 +1,7 @@
+@mixin responsive($size){
+    @if $size == tablette {
+      @media (min-width: 768px) { @content; }
+    } @else if $size == ordinateur {
+      @media (min-width: 1265px) { @content; }
+    }
+  }

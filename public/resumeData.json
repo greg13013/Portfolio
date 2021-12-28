@@ -25,26 +25,49 @@
     ]
   },
   "resume": {
-    "messageCompetence": "Mes compétences techniques",
+    "messageCompetence": "Mes compétences techniques & mes formations",
+    "experienceProfessionelle": [
+      {
+        "nom": "Cabinet condorcet",
+        "date": "Juin 1999",
+        "description": "bla bla bla"
+      },
+      {
+        "nom": "CNRS",
+        "date": "Juin 1999",
+        "description": "bla bla bla"
+      }
+    ],
     "formation": [
+      {
+        "ecole": "OpenClassroom",
+        "diplome": "Septembre 2021 - Mars 2022",
+        "description": "diplome developpeur web"
+      },
       {
         "ecole": "Lycée Marie Curie",
         "diplome": "Juin 9999",
         "description": "bla bla bla"
       }
     ],
-    "skills": [
+    "competence": [
       {
-        "name": "ReactJs"
+        "nom": "HTML / CSS / SCSS"
       },
       {
-        "name": "Git"
+        "nom": "JavaScript / TypeScript"
       },
       {
-        "name": "JavaScript"
+        "nom": "React"
       },
       {
-        "name": "Web Development"
+        "nom": "Angular"
+      },
+      {
+        "nom": "Express"
+      },
+      {
+        "nom": "Git"
       }
     ]
   },
