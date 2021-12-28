@@ -97,7 +97,16 @@
     height: 400px;
 }
 
-
+#projet {
+    & .row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    & .row .col {
+        margin-left: 0 !important;
+    }
+}
 
 
 @media screen and (max-width: 600px) {
