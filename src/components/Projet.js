@@ -1,31 +1,8 @@
 import React from 'react'
 import { ModalProjet } from './ModalProjet';
-import M from "materialize-css";
-import "materialize-css/dist/css/materialize.min.css";
+
 
 export const Projet = ({ data }) => {
-
-    const options = {
-        onOpenStart: () => {
-          console.log("Open Start");
-        },
-        onOpenEnd: () => {
-          console.log("Open End");
-        },
-        onCloseStart: () => {
-          console.log("Close Start");
-        },
-        onCloseEnd: () => {
-          console.log("Close End");
-        },
-        inDuration: 250,
-        outDuration: 250,
-        opacity: 0.5,
-        dismissible: false,
-        startingTop: "4%",
-        endingTop: "10%"
-      };
-      M.Modal.init(this.Modal, options);
 
     if (data) {
         console.log(data);
