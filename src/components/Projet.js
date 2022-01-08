@@ -6,7 +6,7 @@ export const Projet = ({ data }) => {
 
     if (data) {
         console.log(data);
-        var afficherProjet = data.projets.map(projet => {
+        var afficherProjet = data.projets.map((projet, index) => {
             return (
                 <div key={projet.titre} className="col s12 m3">
                     <div className="card hoverable">
@@ -21,10 +21,10 @@ export const Projet = ({ data }) => {
                         </div>
                         <div className="card-action">
                             <a target='_blank' href={projet.url}>Lien vers le site</a>
-                            
+                            <a className="waves-effect waves-light btn modal-trigger" href={'#modal'+index}>modal</a>
                             <button className="btn waves-effect waves-light" onClick={(e) => agrandirCard(e)}>Voir en détail</button>
                         </div>
-                        <ModalProjet />
+                        <ModalProjet data={projet} index={index} />
                     </div>
                 </div>
             );
@@ -56,8 +56,8 @@ export const Projet = ({ data }) => {
         <section id="projet">
             <div className="row">
                {afficherProjet}
-               <a className="waves-effect waves-light btn modal-trigger" href="#modal1">Lien vers le site</a>
-               <div id="modal1" className="modal">
+               <a className="waves-effect waves-light btn modal-trigger" href='#modal10'>Lien vers le site</a>
+               <div id="modal10" className="modal">
             <div className="modal-content">
                 <h4>Modal Header</h4>
                 <p>A bunch of text</p>

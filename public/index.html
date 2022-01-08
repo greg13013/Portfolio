@@ -52,7 +52,27 @@
   var instances = M.Parallax.init(elems);
 
   var elems = document.querySelectorAll('.modal');
-    var instances = M.Modal.init(elems);
+  const options = {
+    onOpenStart: () => {
+      console.log("Open Start");
+    },
+    onOpenEnd: () => {
+      console.log("Open End");
+    },
+    onCloseStart: () => {
+      console.log("Close Start");
+    },
+    onCloseEnd: () => {
+      console.log("Close End");
+    },
+    inDuration: 250,
+    outDuration: 250,
+    opacity: 0.5,
+    dismissible: false,
+    startingTop: "4%",
+    endingTop: "10%"
+  };
+    var instances = M.Modal.init(elems, options);
 });
   </script>
 </html>
