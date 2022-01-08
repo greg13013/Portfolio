@@ -13,7 +13,7 @@ export const Header = ({ data }) => {
     var statut = data.statut;
     var sociaux = data.social.map((social, index) => {
       return (
-        <a target='_blank' key={index} href={social.url}>
+        <a target='_blank' rel='noreferrer' key={index} href={social.url}>
           <i className={social.className}></i>
         </a>)
     });

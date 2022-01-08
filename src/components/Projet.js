@@ -25,7 +25,7 @@ export const Projet = ({ data }) => {
                             </p>
                         </div>
                         <div className="card-action">
-                            <a target='_blank' href={projet.url}>Lien vers le site</a>
+                            <a target='_blank' rel='noreferrer' href={projet.url}>Lien vers le site</a>
 
                             <ModalProjet data={projet} index={index} trigger={trigger} />
                         </div>
@@ -34,24 +34,6 @@ export const Projet = ({ data }) => {
                 </div>
             );
         })
-    }
-
-
-    function agrandirCard(e) {
-        // alert('yolo')
-        let divParent = e.target.parentElement.parentElement.parentElement;
-        console.log(e.target.parentElement.parentElement.parentElement);
-        divParent.style.transition = '2s ease'
-
-        if (divParent.classList.contains('m10')) {
-            divParent.classList.remove('m10')
-            divParent.classList.add('m3')
-        } else {
-
-            divParent.classList.remove('m3')
-            divParent.classList.add('m10')
-            // document.querySelector('#cardy').style.transform = 'scale(2)'
-        }
     }
 
     return (
