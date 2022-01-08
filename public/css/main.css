@@ -240,6 +240,7 @@ nav {
 
 #projet .row .col {
   margin-left: 0 !important;
+  margin-top: 3rem;
 }
 
 @media screen and (max-width: 600px) {

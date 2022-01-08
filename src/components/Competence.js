@@ -1,6 +1,49 @@
 import React from "react";
 
-export const Competence = () => {
+export const Competence = ({ data }) => {
+
+  if (data){
+    console.log(data);
+    var competences = data.competence;
+    var experiencePro = data.experienceProfessionelle;
+    var formations = data.formation;
+  
+
+  var afficherFormation =  formations.map(formation => {
+      return (
+        <div key={formation.ecole} >
+          <h4>{formation.ecole}</h4>
+          <p className="info">{formation.diplome}</p>
+          <p className="info">{formation.titre}</p>
+          <p className="">
+            {formation.description}
+          </p>
+        </div>
+      );
+    })
+
+    var afficherExperiencePro =  experiencePro.map(exp => {
+      return (
+        <div key={exp.nom} >
+          <h4>{exp.nom}</h4>
+          <p className="info">{exp.date}</p>
+          <p className="">
+            {exp.description}
+          </p>
+        </div>
+      );
+    })
+
+  var afficherCompetences =  competences.map(competence => {
+      return (
+        <div key={competence.nom} >
+          <h4>{competence.nom}</h4>
+        </div>
+      );
+    })
+  
+}
+
   return (
     <section id="competence" className="section paddingBottom0">
       <div className="row">
@@ -10,14 +53,22 @@ export const Competence = () => {
           </h4>
         </div>
         <div className="col s12 m5 xl5 offset-xl1">
-          <h4>BTS SIO (Service Informatique aux Organisations)</h4>
-          <p className="info">Lycée marie curie - Juin 9999</p>
-          <p className="">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
-            saepe, distinctio quidem illo quaerat excepturi nostrum rem,
-            adipisci quis dicta dolorem odit consequatur assumenda culpa ratione
-            dolor ab. Illum, dolorem.
-          </p>
+
+        {afficherFormation}
+        </div>
+      </div>
+      <div className="">
+        <div className="col s12 m8 divider"></div>
+      </div>
+      <div className="row">
+        <div className="col s12 m5 xl3 offset-xl1 flexJustifyEnd mobileCenter">
+          <h4>
+            <span className="titreCompetence">Expérience professionnelle</span>
+          </h4>
+        </div>
+        <div className="col s12 m5 xl5 offset-xl1">
+
+        {afficherExperiencePro}
         </div>
       </div>
       <div className="">
@@ -30,14 +81,7 @@ export const Competence = () => {
           </h4>
         </div>
         <div className="col s12 m5 xl5 offset-xl1">
-          <h4>BTS SIO (Service Informatique aux Organisations)</h4>
-          <p className="info">Lycée marie curie - Juin 9999</p>
-          <p className="">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
-            saepe, distinctio quidem illo quaerat excepturi nostrum rem,
-            adipisci quis dicta dolorem odit consequatur assumenda culpa ratione
-            dolor ab. Illum, dolorem.
-          </p>
+          {afficherCompetences}
         </div>
       </div>
       <div className="">

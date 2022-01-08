@@ -28,8 +28,8 @@ function App() {
     <div>
       <Header data={resumeData.main} />
       <Description data={resumeData.main} />
-      <Competence />
-      <Projet />
+      <Competence data={resumeData.resume} />
+      <Projet data={resumeData.portfolio} />
       <Parallax cheminImage={cheminParallax} />
       <Contact />
       <Footer data={resumeData.main} />

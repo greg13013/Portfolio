@@ -4,7 +4,7 @@
     "statut": "Développeur front-end",
     "description": "I eat, sleep and breathe React",
     "image": "img/avatar_cp_big.jpg",
-    "bio": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaque nostrum quae illum cumque impedit eligendi? Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at, tempore, providentimpedit aliquid? Lorem ipsum dolor sit, amet consectetur adipisicingelit. Facilis esse eaque nostrum quae illum cumque impedit eligendi?Ducimus vel minima molestiae dicta deleniti perspiciatis eligendi at,tempore, provident impedit aliquid? Lorem ipsum dolor sit, ametconsectetur adipisicing elit. Facilis esse eaque nostrum quae illumcumque impedit eligendi? Ducimus vel minima molestiae dicta delenitiperspiciatis eligendi at, tempore, provident impedit aliquid? Loremipsum dolor sit, amet consectetur adipisicing elit. Facilis esse eaquenostrum quae illum cumque impedit eligendi? Ducimus vel minimamolestiae dicta deleniti perspiciatis eligendi at, tempore, providentimpedit aliquid?",
+    "bio": "Intéressé par l'informatique depuis mes 10ans, plutôt \"touche à tout\", de nature curieux avec une forte autonomie, j'ai décidé de m'orienter dans l'IT durant mes années d'études pour en apprendre en plus sur l'univers du développement.\nSuite à l'obtention de mon diplôme, j'ai dû choisir entre une carrière pro et une aventure personnelle dans l'univers de la pêche.\nLa crise du COVID a mis fin à ce projet de collaboration mais je n'ai jamais arrêté de suivre les actualités web, les technos et j'ai toujours poursuivi une veille technologique en pratiquant sur des projets perso.\nVoilà, pourquoi aujourd'hui, je suis disponible sur le marché du travail, en recherche active, plus motivé que jamais avec tout autant d'ambition.",
     "email": "colli.gregory.13@gmail.com",
     "tel": "06 64 54 78 80",
     "adresse": {
@@ -29,25 +29,27 @@
     "experienceProfessionelle": [
       {
         "nom": "Cabinet condorcet",
-        "date": "Juin 1999",
-        "description": "bla bla bla"
+        "date": "Septembre 2014 - Mars 2015",
+        "description": "Le métier, courtage en assurance, les outils : mise en relation client, signalements des sinistres, rappel automatique, alerte gestionnaire. \nRefonte d'un site web Wordpress pour assurer la continuité des services métiers. \n- Mise à jour framework, montée de version \n- Gestion des articles \n- Gestion des comptes \n- Gestion emailling, workflow \n- Adaptation thème HTML/CSS/PHP et module. \n- Interopérabilité avec les systèmes internes, excel, word, outlook, windows. \n- Mise en prod"
       },
       {
-        "nom": "CNRS",
-        "date": "Juin 1999",
-        "description": "bla bla bla"
+        "nom": "Stage BTS CNRS - Projet GCPI",
+        "date": "Janvier 2014 - Février 2014",
+        "description": "Reprise d'une application en PHP / Javascript / SQL \nImportation de plusieurs base de donnée vers une autre avec OCS Inventory \nTravailler sur un projet avec Git pour suivre l'avancement du projet"
       }
     ],
     "formation": [
       {
         "ecole": "OpenClassroom",
         "diplome": "Septembre 2021 - Mars 2022",
-        "description": "diplome developpeur web"
+        "titre": "Titre RNCP de niveau 5 (Bac+2).",
+        "description": "Compétences acquises : Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS ;\nAjouter du contenu audio et vidéo en HTML5 ;\nAnimer les pages web avec CSS3 ;\nAppliquer les standards du web et les normes en vigueur ;\nConstruire un site web fluide s’adaptant à tout type d’écran (web, smartphone et tablette) ;\nAméliorer le référencement naturel en utilisant les balises selon leur sémantique ;\nFaire réagir la page web en fonction des actions de l’utilisateur en JavaScript ;\nSe connecter à un service web pour exploiter des données tierces (API) ;\nGérer les comptes utilisateurs ;\nConcevoir un site maintenable grâce à la gestion des erreurs et exceptions ;\nCréer, gérer et afficher le contenu d’une base de données."
       },
       {
         "ecole": "Lycée Marie Curie",
-        "diplome": "Juin 9999",
-        "description": "bla bla bla"
+        "diplome": "2012-2014",
+        "titre": "BTS SIO (Service Informatique aux Organisations), SLAM - Solutions Logicielles et Applications Métiers",
+        "description": "Production des solutions logicielles. Définition du cahier des charges, choix des solutions techniques, réalisation des applications et mise en place de celles-ci au sein de l’organisation."
       }
     ],
     "competence": [
@@ -64,31 +66,77 @@
         "nom": "Angular"
       },
       {
+        "nom": "SQL"
+      },
+      {
+        "nom": "PHP / PDO"
+      },
+      {
         "nom": "Express"
       },
       {
         "nom": "Git"
+      },
+      {
+        "nom": "Visual Studio"
       }
     ]
   },
   "portfolio": {
     "projets": [
       {
-        "titre": "Snapchat Clone (React JS)",
+        "titre": "Roulette casino",
         "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "url": "https://boobkz-front.herokuapp.com/",
+        "description": "Front - Angular, \n Back - Express, \nRoulette de casino pour la cryptomonnaie,\n Connexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \n, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic"
       },
       {
-        "title": "Gmail Clone (React JS)",
-        "category": "",
-        "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "titre": "Site Web - Utilisation API public",
+        "image": "snapchat.jpg",
+        "url": "https://colli-gregory.alwaysdata.net/blizzardTft/",
+        "description": "Application front Angular avec exploitation API publique pour l'univers du gaming :\n- WOW consulting : afficher les personnages/montures du compte du jeu World Of Warcraft avec l’API  Blizzard - API Blizzard\n- TFT Statistiques : Afficher l’historique des parties du jeu TeamFight Tactics avec l’API Riot - API Riot \n  Authentification Oauth2, récupération token"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
-        "category": "",
-        "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "titre": "Projet 2 OC - Booki",
+        "image": "snapchat.jpg",
+        "url": "https://greg13013.github.io/P2_Booki/",
+        "description": "Implémenter une interface responsive \n Intégrer du contenu conformément à une maquette"
+      },
+      {
+        "titre": "Projet 3 OC - Ohmyfood",
+        "image": "snapchat.jpg",
+        "url": "https://greg13013.github.io/P3_Ohmyfood/",
+        "description": "Assurer la cohérence graphique d'un site web \n Utiliser un système de gestion de versions pour le suivi du projet et son hébergement \n Mettre en œuvre des effets CSS graphiques avancés \n Mettre en place son environnement Front-End \n Mettre en place une structure de navigation pour un site web"
+      },
+      {
+        "titre": "Projet 4 OC - La chouette agence",
+        "image": "snapchat.jpg",
+        "url": "https://greg13013.github.io/P4_LaChouetteAgence/",
+        "description": "Écrire un code HTML et CSS maintenable \n Assurer l'accessibilité d'un site web \n Optimiser le référencement d'un site web \n Réaliser une recherche des bonnes pratiques en développement web \n Optimiser la taille et la vitesse d’un site web"
+      },
+      {
+        "titre": "Projet 5 OC - Kanap",
+        "image": "snapchat.jpg",
+        "url": "https://greg13013.github.io/P5_Kanap/",
+        "description": "Interagir avec un web service avec JavaScript \n Gérer des événements JavaScript \n Valider des données issues de sources externes \n Créer un plan de test pour une application"
+      },
+      {
+        "titre": "Site web - Jeux snake",
+        "image": "snapchat.jpg",
+        "url": "https://greg13013.github.io/P5_Kanap/",
+        "description": "Reproduction du jeux snake en javascript"
+      },
+      {
+        "titre": "Minijeux",
+        "image": "snapchat.jpg",
+        "url": "https://mini-jeux-bipbip.herokuapp.com/",
+        "description": "Reproduction de jeux en angular"
+      },
+      {
+        "titre": "Eauservicedebebe",
+        "image": "snapchat.jpg",
+        "url": "https://eauservicedebebe.fr",
+        "description": "Création site web avec base de données pour des services pour jeunes mamans, \n Reproduction maquette, \n Utilisation de Angular pour le front et Express pour le back, \n Connexion utilisateur - Mise en place interface pour gérer des évènements (créer, modifier, supprimer), \n Mise en production sur OVH"
       }
     ]
   }
