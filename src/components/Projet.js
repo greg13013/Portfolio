@@ -1,8 +1,10 @@
 import React from 'react'
 import { ModalProjet } from './ModalProjet';
-
+import { Button } from 'react-materialize';
 
 export const Projet = ({ data }) => {
+
+    const trigger = <Button>Voir en détail</Button>;
 
     if (data) {
         console.log(data);
@@ -16,20 +18,24 @@ export const Projet = ({ data }) => {
                         </div>
                         <div className="card-content">
                             <p>
-                                {projet.description}
+                                {projet.competence}
+                            </p>
+                            <p>
+                                {projet.courteDescription}
                             </p>
                         </div>
                         <div className="card-action">
                             <a target='_blank' href={projet.url}>Lien vers le site</a>
-                            <a className="waves-effect waves-light btn modal-trigger" href={'#modal'+index}>modal</a>
-                            <button className="btn waves-effect waves-light" onClick={(e) => agrandirCard(e)}>Voir en détail</button>
+
+                            <ModalProjet data={projet} index={index} trigger={trigger} />
                         </div>
-                        <ModalProjet data={projet} index={index} />
+
                     </div>
                 </div>
             );
         })
     }
+
 
     function agrandirCard(e) {
         // alert('yolo')
@@ -48,24 +54,10 @@ export const Projet = ({ data }) => {
         }
     }
 
-    function openModal(){
-
-    }
-
     return (
         <section id="projet">
             <div className="row">
-               {afficherProjet}
-               <a className="waves-effect waves-light btn modal-trigger" href='#modal10'>Lien vers le site</a>
-               <div id="modal10" className="modal">
-            <div className="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
-            </div>
-            <div className="modal-footer">
-                <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
-            </div>
-        </div>
+                {afficherProjet}
             </div>
         </section>
     )

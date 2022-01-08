@@ -88,56 +88,68 @@
         "titre": "Roulette casino",
         "image": "snapchat.jpg",
         "url": "https://boobkz-front.herokuapp.com/",
-        "description": "Front - Angular, \n Back - Express, \nRoulette de casino pour la cryptomonnaie,\n Connexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \n, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic"
+        "courteDescription": "Front - Angular, \n Back - Express, \n Roulette crypto avec Metamask \n",
+        "competence": "Angular, Express, web3, Git, Heroku",
+        "description": "Front - Angular, \n Back - Express, \nApplication web d'une roulette de casino avec la cryptomonnaie,\n Connexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \n, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic"
       },
       {
         "titre": "Site Web - Utilisation API public",
         "image": "snapchat.jpg",
         "url": "https://colli-gregory.alwaysdata.net/blizzardTft/",
+        "courteDescription": "Angular \n Exploitation API publique pour l'univers du gaming Blizzard & Riot \n",
+        "competence": "Angular, API",
         "description": "Application front Angular avec exploitation API publique pour l'univers du gaming :\n- WOW consulting : afficher les personnages/montures du compte du jeu World Of Warcraft avec l’API  Blizzard - API Blizzard\n- TFT Statistiques : Afficher l’historique des parties du jeu TeamFight Tactics avec l’API Riot - API Riot \n  Authentification Oauth2, récupération token"
       },
       {
         "titre": "Projet 2 OC - Booki",
         "image": "snapchat.jpg",
         "url": "https://greg13013.github.io/P2_Booki/",
+        "courteDescription": "Projet 2 OpenClassroom - Reproduction maquette",
+        "competence": "HTML, CSS",
         "description": "Implémenter une interface responsive \n Intégrer du contenu conformément à une maquette"
       },
       {
         "titre": "Projet 3 OC - Ohmyfood",
         "image": "snapchat.jpg",
         "url": "https://greg13013.github.io/P3_Ohmyfood/",
+        "courteDescription": "Projet 3 OpenClassroom - Reproduction maquette avec animation",
+        "competence": "HTML, CSS, SASS",
         "description": "Assurer la cohérence graphique d'un site web \n Utiliser un système de gestion de versions pour le suivi du projet et son hébergement \n Mettre en œuvre des effets CSS graphiques avancés \n Mettre en place son environnement Front-End \n Mettre en place une structure de navigation pour un site web"
       },
       {
         "titre": "Projet 4 OC - La chouette agence",
         "image": "snapchat.jpg",
         "url": "https://greg13013.github.io/P4_LaChouetteAgence/",
+        "courteDescription": "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
+        "competence": "SEO - Lighthouse, CDN",
         "description": "Écrire un code HTML et CSS maintenable \n Assurer l'accessibilité d'un site web \n Optimiser le référencement d'un site web \n Réaliser une recherche des bonnes pratiques en développement web \n Optimiser la taille et la vitesse d’un site web"
       },
       {
         "titre": "Projet 5 OC - Kanap",
         "image": "snapchat.jpg",
         "url": "https://greg13013.github.io/P5_Kanap/",
+        "courteDescription": "Projet 5 OpenClassroom - Site e-commerce canapé",
+        "competence": "Javascript",
         "description": "Interagir avec un web service avec JavaScript \n Gérer des événements JavaScript \n Valider des données issues de sources externes \n Créer un plan de test pour une application"
       },
       {
         "titre": "Site web - Jeux snake",
         "image": "snapchat.jpg",
         "url": "https://greg13013.github.io/P5_Kanap/",
+        "courteDescription": "Javascript - Reproduction snake",
+        "competence": "Javascript",
         "description": "Reproduction du jeux snake en javascript"
       },
-      {
-        "titre": "Minijeux",
-        "image": "snapchat.jpg",
-        "url": "https://mini-jeux-bipbip.herokuapp.com/",
-        "description": "Reproduction de jeux en angular"
-      },
+      
       {
         "titre": "Eauservicedebebe",
         "image": "snapchat.jpg",
         "url": "https://eauservicedebebe.fr",
+        "competence": "Angular",
+        "courteDescription": "Angular - Création site web avec base de données pour des services pour jeunes mamans",
         "description": "Création site web avec base de données pour des services pour jeunes mamans, \n Reproduction maquette, \n Utilisation de Angular pour le front et Express pour le back, \n Connexion utilisateur - Mise en place interface pour gérer des évènements (créer, modifier, supprimer), \n Mise en production sur OVH"
       }
     ]
   }
 }
+

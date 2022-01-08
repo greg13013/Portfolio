@@ -14,6 +14,10 @@
   border: 3px solid #2c2c2c;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
