@@ -10,11 +10,11 @@ export const Projet = ({ data }) => {
         console.log(data);
         var afficherProjet = data.projets.map((projet, index) => {
             return (
-                <div key={projet.titre} className="col s12 m3">
-                    <div className="card hoverable">
+                <div key={projet.titre} className="col s12 m4">
+                    <div className="card medium hoverable">
                         <div className="card-image">
                             <img src={projet.image} alt='exemple' />
-                            <span className="card-title">{projet.titre}</span>
+                            <span className="card-title customTitleCard">{projet.titre}</span>
                         </div>
                         <div className="card-content">
                             <p>

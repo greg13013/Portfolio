@@ -75,12 +75,12 @@ export const Competence = ({ data }) => {
         <div className="col s12 m8 divider"></div>
       </div>
       <div className="row">
-        <div className="col s12 m5 xl3 offset-xl1 flexJustifyEnd mobileCenter">
+        <div className="col s12 mobileCenter">
           <h4>
             <span className="titreCompetence">Compétences</span>
           </h4>
         </div>
-        <div className="col s12 m5 xl5 offset-xl1">
+        <div className="col s12">
           {afficherCompetences}
         </div>
       </div>

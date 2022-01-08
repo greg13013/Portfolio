@@ -109,6 +109,25 @@
     }
 }
 
+.hoverable:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.20), 0 6px 20px 0 rgba(255, 255, 255, 0.19) !important;
+    box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.20), 0 6px 20px 0 rgba(255, 255, 255, 0.19) !important;
+}
+
+.textBlack{
+    color: black !important;
+}
+
+.customTitleCard {
+    color: #840031 !important;
+    padding: 5px !important;
+    font-weight: 700 !important;
+    left: 10px !important;
+    bottom: 10px !important;
+    background: white;
+    box-shadow: 0 0 10px 5px;
+}
+
 
 @media screen and (max-width: 600px) {
     .mobileCenter{

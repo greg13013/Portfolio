@@ -86,7 +86,7 @@
     "projets": [
       {
         "titre": "Roulette casino",
-        "image": "snapchat.jpg",
+        "image": "img/projets/roulette.PNG",
         "url": "https://boobkz-front.herokuapp.com/",
         "courteDescription": "Front - Angular, \n Back - Express, \n Roulette crypto avec Metamask \n",
         "competence": "Angular, Express, web3, Git, Heroku",
@@ -94,7 +94,7 @@
       },
       {
         "titre": "Site Web - Utilisation API public",
-        "image": "snapchat.jpg",
+        "image": "img/projets/tft.PNG",
         "url": "https://colli-gregory.alwaysdata.net/blizzardTft/",
         "courteDescription": "Angular \n Exploitation API publique pour l'univers du gaming Blizzard & Riot \n",
         "competence": "Angular, API",
@@ -102,7 +102,7 @@
       },
       {
         "titre": "Projet 2 OC - Booki",
-        "image": "snapchat.jpg",
+        "image": "img/projets/booki.PNG",
         "url": "https://greg13013.github.io/P2_Booki/",
         "courteDescription": "Projet 2 OpenClassroom - Reproduction maquette",
         "competence": "HTML, CSS",
@@ -110,7 +110,7 @@
       },
       {
         "titre": "Projet 3 OC - Ohmyfood",
-        "image": "snapchat.jpg",
+        "image": "img/projets/ohmyfood.PNG",
         "url": "https://greg13013.github.io/P3_Ohmyfood/",
         "courteDescription": "Projet 3 OpenClassroom - Reproduction maquette avec animation",
         "competence": "HTML, CSS, SASS",
@@ -118,7 +118,7 @@
       },
       {
         "titre": "Projet 4 OC - La chouette agence",
-        "image": "snapchat.jpg",
+        "image": "img/projets/laChouetteAgence.PNG",
         "url": "https://greg13013.github.io/P4_LaChouetteAgence/",
         "courteDescription": "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
         "competence": "SEO - Lighthouse, CDN",
@@ -126,7 +126,7 @@
       },
       {
         "titre": "Projet 5 OC - Kanap",
-        "image": "snapchat.jpg",
+        "image": "img/projets/kanap.PNG",
         "url": "https://greg13013.github.io/P5_Kanap/",
         "courteDescription": "Projet 5 OpenClassroom - Site e-commerce canapé",
         "competence": "Javascript",
@@ -134,8 +134,8 @@
       },
       {
         "titre": "Site web - Jeux snake",
-        "image": "snapchat.jpg",
-        "url": "https://greg13013.github.io/P5_Kanap/",
+        "image": "img/projets/snake.PNG",
+        "url": "https://greg13013.github.io/snake/",
         "courteDescription": "Javascript - Reproduction snake",
         "competence": "Javascript",
         "description": "Reproduction du jeux snake en javascript"
@@ -143,7 +143,7 @@
       
       {
         "titre": "Eauservicedebebe",
-        "image": "snapchat.jpg",
+        "image": "img/projets/eauservicedebebe.PNG",
         "url": "https://eauservicedebebe.fr",
         "competence": "Angular",
         "courteDescription": "Angular - Création site web avec base de données pour des services pour jeunes mamans",
