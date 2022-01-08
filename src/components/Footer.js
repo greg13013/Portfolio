@@ -6,7 +6,7 @@ export const Footer = ({data}) => {
     if (data) {
         var sociaux = data.social.map((social,index) => {
             return (
-                <a target='_blank' href={social.url} key={index}>
+                <a target='_blank' href={social.url} rel='noreferrer' key={index}>
                     <i className={social.className}></i>
                 </a>
             )
