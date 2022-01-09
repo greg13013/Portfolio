@@ -22,7 +22,9 @@ if (data) {
       <div className="col s12 m8">
         <div>
           <h4>A propos de moi</h4>
-          {description}
+          <p className="formatageTexte">
+            {description}
+            </p>
         </div>
         <h4>Coordonées</h4>
         <div>{ville}</div>
