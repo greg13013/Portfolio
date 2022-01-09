@@ -52,7 +52,7 @@ export const Competence = ({ data }) => {
             <span className="titreCompetence">Formation</span>
           </h4>
         </div>
-        <div className="col s12 m5 xl5 offset-xl1">
+        <div className="col s12 m5 xl5 offset-xl1 formatageTexte">
 
         {afficherFormation}
         </div>
@@ -66,7 +66,7 @@ export const Competence = ({ data }) => {
             <span className="titreCompetence">Expérience professionnelle</span>
           </h4>
         </div>
-        <div className="col s12 m5 xl5 offset-xl1">
+        <div className="col s12 m5 xl5 offset-xl1 formatageTexte">
 
         {afficherExperiencePro}
         </div>
@@ -80,7 +80,7 @@ export const Competence = ({ data }) => {
             <span className="titreCompetence">Compétences</span>
           </h4>
         </div>
-        <div className="col s12">
+        <div className="col s12 formatageTexte">
           {afficherCompetences}
         </div>
       </div>

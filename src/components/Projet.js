@@ -8,7 +8,24 @@ export const Projet = ({ data }) => {
 
     if (data) {
         console.log(data);
+
+        function afficherLogo(projet) {
+            projet.competence.split(',').forEach(element => {
+                                
+                if (element === 'Angular') {
+                    console.log('ok');
+                    
+                    return (<i class="fab fa-angular"></i>)
+                }
+            })
+        }
+        
         var afficherProjet = data.projets.map((projet, index) => {
+
+            console.log(projet.competence.split(','));
+
+            
+
             return (
                 <div key={projet.titre} className="col s12 m4">
                     <div className="card medium hoverable">
@@ -17,10 +34,14 @@ export const Projet = ({ data }) => {
                             <span className="card-title customTitleCard">{projet.titre}</span>
                         </div>
                         <div className="card-content">
+                        {/* <i className="fab fa-angular"></i> */}
+                        <p>
+                            {afficherLogo(projet)}
+                        </p>
                             <p>
                                 {projet.competence}
                             </p>
-                            <p>
+                            <p className='formatageTexte'>
                                 {projet.courteDescription}
                             </p>
                         </div>
