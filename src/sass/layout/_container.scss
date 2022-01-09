@@ -122,6 +122,17 @@
     color: black !important;
 }
 
+.weight700{
+    font-weight: 700;
+}
+
+.logoProjet{
+    position: absolute;
+    top: 77%;
+    right: 0;
+    color: black !important;
+}
+
 .customTitleCard {
     color: #000000 !important;
     padding: 5px !important;
@@ -130,6 +141,12 @@
     bottom: 10px !important;
     background: white;
     box-shadow: 0 0 10px 5px;
+}
+
+//OVERRIDE MATERIALIZE
+.modal h4{
+    font-weight: 700;
+    text-align: center;
 }
 
 
