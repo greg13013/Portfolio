@@ -104,7 +104,9 @@ export const Header = ({ data }) => {
           >
             Contact
           </Link>
+          
         </nav>
+       
         <div className="row banniere">
           <h1 className="textBanniere">
 

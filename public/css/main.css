@@ -253,7 +253,7 @@ nav {
 
 .hoverable:hover {
   -webkit-box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19) !important;
-  box-shadow: 0 8px 17px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19) !important;
+  box-shadow: 0 0 17px 5px rgba(255, 255, 255, 0.2), 0 0 20px 5px rgba(255, 255, 255, 0.19) !important;
 }
 
 .textBlack {

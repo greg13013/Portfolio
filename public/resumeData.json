@@ -2,7 +2,6 @@
   "main": {
     "nom": "Colli Grégory",
     "statut": "Développeur front-end",
-    "description": "I eat, sleep and breathe React",
     "image": "img/avatar_cp_big.jpg",
     "bio": "Intéressé par l'informatique depuis mes 10ans, plutôt \"touche à tout\", de nature curieux avec une forte autonomie, j'ai décidé de m'orienter dans l'IT durant mes années d'études pour en apprendre en plus sur l'univers du développement.\nSuite à l'obtention de mon diplôme, j'ai dû choisir entre une carrière pro et une aventure personnelle dans l'univers de la pêche.\nLa crise du COVID a mis fin à ce projet de collaboration mais je n'ai jamais arrêté de suivre les actualités web, les technos et j'ai toujours poursuivi une veille technologique en pratiquant sur des projets perso.\nVoilà, pourquoi aujourd'hui, je suis disponible sur le marché du travail, en recherche active, plus motivé que jamais avec tout autant d'ambition.",
     "email": "colli.gregory.13@gmail.com",
@@ -88,7 +87,7 @@
         "titre": "Roulette casino",
         "image": "img/projets/roulette.PNG",
         "url": "https://boobkz-front.herokuapp.com/",
-        "courteDescription": "Front - Angular, \nBack - Express, \nRoulette crypto avec Metamask",
+        "courteDescription": "Roulette crypto avec Metamask, \nFront - Angular, \nBack - Express",
         "competence": "Angular,Express,web3,Git,Heroku",
         "description": "Front - Angular, \nBack - Express, \nApplication web d'une roulette de casino avec la cryptomonnaie,\nConnexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic"
       },
@@ -96,7 +95,7 @@
         "titre": "Site Web - Utilisation API public",
         "image": "img/projets/tft.PNG",
         "url": "https://colli-gregory.alwaysdata.net/blizzardTft/",
-        "courteDescription": "Angular \n Exploitation API publique pour l'univers du gaming Blizzard & Riot",
+        "courteDescription": "Angular \nExploitation API publique pour l'univers du gaming Blizzard & Riot",
         "competence": "Angular,API",
         "description": "Application front Angular avec exploitation API publique pour l'univers du gaming :\n- WOW consulting : afficher les personnages/montures du compte du jeu World Of Warcraft avec l’API  Blizzard - API Blizzard\n- TFT Statistiques : Afficher l’historique des parties du jeu TeamFight Tactics avec l’API Riot - API Riot \nAuthentification Oauth2, récupération token"
       },

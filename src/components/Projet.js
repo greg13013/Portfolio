@@ -7,30 +7,30 @@ export const Projet = ({ data }) => {
     const trigger = <Button>Voir en détail</Button>;
 
     if (data) {
-        console.log(data);
+        // console.log(data);
 
         function afficherLogo(projet) {
             let logo = []
             projet.competence.split(',').forEach(element => {
                                 
                 if (element === 'Angular') {
-                    console.log('ok');
+                    
                     logo.push(<i key={element} className="fab fa-angular textBlack"></i>)
                 }
                 if (element === 'Javascript') {
-                    console.log('ok');
+                    
                     logo.push(<i key={element} className="fab fa-js textBlack"></i>)
                 }
                 if (element === 'HTML') {
-                    console.log('ok');
+                    
                     logo.push(<i key={element} className="fab fa-html5 textBlack"></i>)
                 }
                 if (element === 'CSS') {
-                    console.log('ok');
+                    
                     logo.push(<i key={element} className="fab fa-css3-alt textBlack"></i>)
                 }
                 if (element === 'SASS') {
-                    console.log('ok');
+                    
                     logo.push(<i key={element} className="fab fa-sass textBlack"></i>)
                 }
             });
@@ -39,7 +39,7 @@ export const Projet = ({ data }) => {
         
         var afficherProjet = data.projets.map((projet, index) => {
 
-            console.log(projet.competence.split(','));
+            // console.log(projet.competence.split(','));
 
             
 
