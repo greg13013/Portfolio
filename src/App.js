@@ -29,7 +29,7 @@ function App() {
     <div>
       <Header data={resumeData.main} />
       <Description data={resumeData.main} />
-      {/* <Parallax cheminImage={'img/7065648.png'} /> */}
+      <Parallax cheminImage={'img/7065648.png'} />
       <Formation data={resumeData.resume} />
       <Competence data={resumeData.resume} />
       <Projet data={resumeData.portfolio} />

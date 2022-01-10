@@ -1,7 +1,7 @@
 import React from 'react'
 import { Modal } from 'react-materialize'
 
-export const ModalProjet = ({ data, index, trigger, logo }) => {
+export const ModalProjet = ({ data, trigger, logo }) => {
 
     return (
         <Modal header={data.titre} trigger={trigger}>

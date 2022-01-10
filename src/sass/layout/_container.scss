@@ -11,6 +11,7 @@
     background-color: #3a3a3a;
     color: white;
     padding: 4rem;
+    margin-bottom: 0;
 }
 
 .flexJustifyCenter{
@@ -30,6 +31,19 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+    background: black;
+    color: white;
+}
+
+.texteFond{
+    position: absolute;
+    top: 30%;
+    font-size: 7vw;
+    left: 25%;
+    transform: rotate(325deg);
+    opacity: .2;
+    font-weight: 700;
 }
 
 .titreCompetence{
@@ -106,6 +120,9 @@
     & .row .col {
         margin-left: 0 !important;
         margin-top: 3rem;
+    }
+    & label {
+        margin: 1rem;
     }
 }
 

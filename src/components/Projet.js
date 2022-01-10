@@ -80,7 +80,7 @@ export const Projet = ({ data }) => {
                             <div className="card-action">
                                 <a target='_blank' rel='noreferrer' href={projet.url}>Lien vers le site</a>
 
-                                <ModalProjet data={projet} index={index} trigger={trigger} logo={afficherLogo(projet)} />
+                                <ModalProjet data={projet} trigger={trigger} logo={afficherLogo(projet)} />
                             </div>
 
                         </div>
