@@ -77,6 +77,17 @@ export const Header = ({ data }) => {
           <Link
             className="navLink"
             activeClass="active"
+            to="formation"
+            spy={true}
+            smooth={true}
+            duration={500}
+            
+          >
+            Formation
+          </Link>
+          <Link
+            className="navLink"
+            activeClass="active"
             to="competence"
             spy={true}
             smooth={true}

@@ -90,10 +90,10 @@ export const Projet = ({ data }) => {
         })
 
         var afficherRadio = data.categorie.map(categorie => {
-            console.log(categorie);
+            // console.log(categorie);
             return (
                 <label key={categorie.nom}>
-                    <input class="with-gap" 
+                    <input className="with-gap" 
                     name={categorie.nom} 
                     type="radio" value={categorie.nom} 
                     checked={selectedRadio === categorie.nom} 

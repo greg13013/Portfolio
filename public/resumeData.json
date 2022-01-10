@@ -113,7 +113,7 @@
         "categorie": "Perso,React",
         "courteDescription": "Portfolio avec React",
         "competence": "React",
-        "description": "Utilisation de React pour faire mon portfolio \nUtilisation des différents hooks : \n- useState \n- useEffect \nUtilisation de react-materialize pour le style \nreact-reveal pour les animations"
+        "description": "Utilisation de React pour faire mon portfolio \nUtilisation des différents hooks : \n- useState \n- useEffect \n- useRef \nUtilisation de react-materialize pour le style \nreact-reveal pour les animations"
       },
       {
         "titre": "Site Web - Utilisation API public",

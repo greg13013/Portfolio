@@ -7,6 +7,7 @@ import { Contact } from './components/Contact';
 import { Parallax } from './components/Parallax';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Formation } from './components/Formation';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
       <Header data={resumeData.main} />
       <Description data={resumeData.main} />
       {/* <Parallax cheminImage={'img/7065648.png'} /> */}
+      <Formation data={resumeData.resume} />
       <Competence data={resumeData.resume} />
       <Projet data={resumeData.portfolio} />
       <Parallax cheminImage={cheminParallax} />
