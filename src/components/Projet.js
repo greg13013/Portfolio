@@ -1,6 +1,7 @@
 import React from 'react'
 import { ModalProjet } from './ModalProjet';
 import { Button } from 'react-materialize';
+import { Fade } from 'react-reveal';
 
 export const Projet = ({ data }) => {
 
@@ -44,7 +45,8 @@ export const Projet = ({ data }) => {
             
 
             return (
-                <div key={projet.titre} className="col s12 m4">
+                <Fade left key={projet.titre}>
+                <div  className="col s12 m4">
                     <div className="card large hoverable">
                         <div className="card-image">
                             <img src={projet.image} alt='exemple' />
@@ -69,6 +71,7 @@ export const Projet = ({ data }) => {
 
                     </div>
                 </div>
+                </Fade>
             );
         })
     }
