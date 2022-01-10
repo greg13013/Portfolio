@@ -29,8 +29,8 @@ function App() {
     <div>
       <Header data={resumeData.main} />
       <Description data={resumeData.main} />
-      <Parallax cheminImage={'img/7065648.png'} />
       <Formation data={resumeData.resume} />
+      <Parallax cheminImage={'img/7065648.png'} />
       <Competence data={resumeData.resume} />
       <Projet data={resumeData.portfolio} />
       <Parallax cheminImage={cheminParallax} />
