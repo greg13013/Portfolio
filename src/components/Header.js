@@ -135,7 +135,7 @@ export const Header = ({ data }) => {
             </li>
           </ul>
         </nav>
-        <ul className="sidenav" id="mobile-demo">
+        <ul className="sidenav sidenav-close" id="mobile-demo">
           <li>
             <Link
               className="navLink"
