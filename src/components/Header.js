@@ -33,9 +33,11 @@ export const Header = ({ data }) => {
   }
 
   useEffect(() => {
-    window.addEventListener("resize", () => {
-      setTailleEcran(getSize().height);
-    });
+    //resize a chaque changement hauteur fenetre
+    
+    // window.addEventListener("resize", () => {
+    //   setTailleEcran(getSize().height);
+    // });
 
     window.addEventListener("scroll", () => {
       if (
