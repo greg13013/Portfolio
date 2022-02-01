@@ -14,7 +14,9 @@ nav{
     background-color: transparent;
     box-shadow: none;
     display: flex;
-    justify-content: center;
+    @include responsive(tablette){
+        justify-content: center;
+    }
     position: fixed;
     transition: opacity .2s ease-in-out;
     z-index: 2;
@@ -39,6 +41,19 @@ nav{
     &:hover {
         color: rgb(151, 151, 151);
     }
+}
+
+.active{
+    color: tomato;
+}
+
+nav{
+     ul {
+         a:hover{
+             background-color: transparent;
+        }
+    } 
+
 }
 
 .banniere{

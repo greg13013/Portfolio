@@ -63,61 +63,150 @@ export const Header = ({ data }) => {
     <div>
       <header id="header" style={styles.hauteurImg}>
         <nav>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="description"
-            spy={true}
-            smooth={true}
-            duration={500}
-            
-          >
-            Description
-          </Link>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="formation"
-            spy={true}
-            smooth={true}
-            duration={500}
-            
-          >
-            Formation
-          </Link>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="competence"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Competence
-          </Link>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="projet"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Projets
-          </Link>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Contact
-          </Link>
-          
+          <a href="#header" data-target="mobile-demo" className="sidenav-trigger"><i className="fas fa-bars"></i></a>
+          <ul className="right hide-on-med-and-down">
+
+            <li>
+              <Link
+                className="navLink"
+                activeClass="active"
+                to="description"
+                spy={true}
+                smooth={true}
+                duration={500}
+
+              >
+                Description
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                activeClass="active"
+                to="formation"
+                spy={true}
+                smooth={true}
+                duration={500}
+
+              >
+                Formation
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                activeClass="active"
+                to="competence"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Competence
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                activeClass="active"
+                to="projet"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Projets
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="navLink"
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
         </nav>
-       
+        <ul className="sidenav" id="mobile-demo">
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="header"
+              spy={true}
+              smooth={true}
+              duration={500}
+
+            >
+              Go top
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="description"
+              spy={true}
+              smooth={true}
+              duration={500}
+
+            >
+              Description
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="formation"
+              spy={true}
+              smooth={true}
+              duration={500}
+
+            >
+              Formation
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="competence"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Competence
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="projet"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Projets
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="navLink"
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
         <div className="row banniere">
           <h1 className="textBanniere">
 

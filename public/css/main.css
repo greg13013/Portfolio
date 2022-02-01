@@ -49,13 +49,18 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: fixed;
   -webkit-transition: opacity .2s ease-in-out;
   transition: opacity .2s ease-in-out;
   z-index: 2;
+}
+
+@media (min-width: 993px) {
+  nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .fadeIn {
@@ -78,6 +83,14 @@ nav {
 
 .navLink:hover {
   color: #979797;
+}
+
+.active {
+  color: tomato;
+}
+
+nav ul a:hover {
+  background-color: transparent;
 }
 
 .banniere {
