@@ -34,7 +34,7 @@ export const Header = ({ data }) => {
 
   useEffect(() => {
     //resize a chaque changement hauteur fenetre
-    
+
     // window.addEventListener("resize", () => {
     //   setTailleEcran(getSize().height);
     // });
@@ -76,7 +76,7 @@ export const Header = ({ data }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
-
+                offset={-64}
               >
                 Description
               </Link>
@@ -89,7 +89,7 @@ export const Header = ({ data }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
-
+                offset={-64}
               >
                 Formation
               </Link>
@@ -102,6 +102,7 @@ export const Header = ({ data }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-64}
               >
                 Competence
               </Link>
@@ -114,6 +115,7 @@ export const Header = ({ data }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-64}
               >
                 Projets
               </Link>
@@ -126,6 +128,7 @@ export const Header = ({ data }) => {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-64}
               >
                 Contact
               </Link>
@@ -154,7 +157,7 @@ export const Header = ({ data }) => {
               spy={true}
               smooth={true}
               duration={500}
-
+              offset={-56}
             >
               Description
             </Link>
@@ -167,6 +170,7 @@ export const Header = ({ data }) => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-56}
 
             >
               Formation
@@ -180,6 +184,7 @@ export const Header = ({ data }) => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-56}
             >
               Competence
             </Link>
@@ -192,6 +197,7 @@ export const Header = ({ data }) => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-56}
             >
               Projets
             </Link>
@@ -204,6 +210,7 @@ export const Header = ({ data }) => {
               spy={true}
               smooth={true}
               duration={500}
+              offset={-56}
             >
               Contact
             </Link>
