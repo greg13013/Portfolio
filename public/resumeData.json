@@ -107,6 +107,15 @@
         "description": "Front - Angular, \nBack - Express, \nApplication web d'une roulette de casino avec la cryptomonnaie,\nConnexion à Metamask, \nInterface de création de machine à sous, \nUtilisation de httpClient pour des appels à l'API, \nUtilisation de Heroku pour le déploiement à partir de Git, \nMise en place d'une documentation, \nUtilisation de git pour le versionning, \nCréation version mobile avec Ionic"
       },
       {
+        "titre": "Clash Royale API",
+        "image": "img/projets/clashRoyaleAPI.PNG",
+        "url": "https://clashroyaleapi.netlify.app",
+        "categorie": "Perso,React",
+        "courteDescription": "Utilisation de l'API du jeu Clash Royale, \nHébergement sur Netlify",
+        "competence": "React,useState,useEffect,useContext,Netlify",
+        "description": "Front - React, \nUtilisation de l'API publique du jeu mobile Clash Royale \nUtilisation des différents hooks : \n- useState \n- useEffect \n -useRef \n -useContext \nUtilisation de react-materialize pour le style"
+      },
+      {
         "titre": "Portfolio",
         "image": "img/projets/portfolio.PNG",
         "url": "#",
