@@ -100,7 +100,7 @@
       {
         "titre": "Projet 7 OC - Groupomania",
         "image": "img/projets/groupomania.PNG",
-        "url": "colligregory-groupomania.netlify.app",
+        "url": "https://colligregory-groupomania.netlify.app",
         "categorie": "Openclassroom,React,Express",
         "courteDescription": "Projet 7 Openclassroom - Création d’un réseau social pour entreprise (Frontend et Backend), \nHébergement sur Netlify",
         "competence": "React,Redux,useState,useEffect,useContext,Netlify",
