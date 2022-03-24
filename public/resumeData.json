@@ -104,7 +104,7 @@
         "categorie": "Openclassroom,React,Express",
         "courteDescription": "Projet 7 Openclassroom - Création d’un réseau social pour entreprise (Frontend et Backend), \nHébergement sur Netlify",
         "competence": "React,Redux,useState,useEffect,useContext,Netlify",
-        "description": "Front - React, Back - Express \nCréation d’un réseau social pour entreprise (Frontend et Backend) \nStructuration d’un projet React \nUtilisation des différents hooks de React (useState, useEffect, useRef) et les hooks de redux (useSelector, useDispatch) \nMise en place thème sombre / thème lumineux avec useContext \nUtilisation de Axios pour les appels à l’API \nGestion des routes avec react-router-dom \nGestion authentification d’un utilisateur \nGestion de la partie Administrateur \nGestion des posts et commentaires \nUtilisation de Redux avec react-redux, redux \nUtilisation de Sass \nUtilisation de materialize \nCréation d’une API avec Express, Base de donnée Mysql, utilisation de sequelize, respect sécurité OWASP"
+        "description": "Front - React, Back - Express \nCréation d’un réseau social pour entreprise (Frontend et Backend) \nStructuration d’un projet React \nUtilisation des différents hooks de React (useState, useEffect, useRef) et les hooks de redux (useSelector, useDispatch) \nMise en place thème sombre / thème lumineux avec useContext \nUtilisation de Axios pour les appels à l’API \nGestion des routes avec react-router-dom \nGestion authentification d’un utilisateur \nGestion de la partie Administrateur \nGestion des posts et commentaires \nUtilisation de Redux avec react-redux, redux \nUtilisation de Sass \nUtilisation de materialize \nCréation d’une API avec Express, Base de donnée Mysql, utilisation de sequelize, respect sécurité OWASP \nMaintien d’un schéma d’architecture de l’application"
       },
       {
         "titre": "Roulette casino",
@@ -122,7 +122,7 @@
         "categorie": "Openclassroom,Express",
         "courteDescription": "Projet 6 OpenClassroom - Application d'avis gastronomiques",
         "competence": "Javascript, Express",
-        "description": "Implémenter un modèle logique de données conformément à la réglementation \nStocker des données de manière sécurisée \nMettre en œuvre des opérations CRUD de manière sécurisée \nRègle de sécurité OWASP"
+        "description": "Création d’une API avec EXPRESS et MongoDB pour un site de sauce piquante \nGestion routes, controllers, modèles \nGestion des middlewares \nSécurité token sur toutes les routes à part login et signup et respect sécurité OWASP \nImplémentation d’un modèle logique de données conformément à la réglementation \nStockage des données de manière sécurisée \nMettre en œuvre des opérations CRUD de manière sécurisée \nDéploiement sur Heroku pour les backend et Netlify pour les frontend"
       },
       {
         "titre": "Clash Royale API",
@@ -158,7 +158,16 @@
         "categorie": "Openclassroom,Javascript",
         "courteDescription": "Projet 5 OpenClassroom - Site e-commerce canapé",
         "competence": "Javascript",
-        "description": "Interagir avec un web service avec JavaScript \nGérer des événements JavaScript \nValider des données issues de sources externes \nCréer un plan de test pour une application"
+        "description": "Création de la logique avec Javascript d’un site e-commerce \nRécupération des données d’une API puis les afficher \nStructuration d’un projet \nGérer les données de manière dynamique \nGestion d’un panier \nGestion d’un formulaire Contact avec vérification avant l’envoie pour éviter des erreurs éventuelles \nGestion des données lors de l’envoie à l’API \nInteraction avec un web service avec JavaScript \nGestion des événements JavaScript \nValidation des données issues de sources externes \nCréation d’un plan de test pour une application \nDéploiement avec github page"
+      },
+      {
+        "titre": "Projet 4 OC - La chouette agence",
+        "image": "img/projets/laChouetteAgence.PNG",
+        "url": "https://greg13013.github.io/P4_LaChouetteAgence/",
+        "categorie": "Openclassroom,seo",
+        "courteDescription": "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
+        "competence": "SEO - Lighthouse,CDN",
+        "description": "\nCréation d’un rapport d’analyse & d’optimisation d’un site web \nOptimisation du référencement du site web \nÉcrire un code HTML et CSS maintenable \nRéalisation d’une recherche des bonnes pratiques en développement web \nOptimisation de la taille et de la vitesse d’un site web \nAssurer l'accessibilité d'un site web \nValidation d’un site web avec W3C"
       },
       {
         "titre": "Projet 3 OC - Ohmyfood",
@@ -167,7 +176,7 @@
         "categorie": "Openclassroom",
         "courteDescription": "Projet 3 OpenClassroom - Reproduction maquette avec animation",
         "competence": "HTML,CSS,SASS",
-        "description": "Assurer la cohérence graphique d'un site web \nUtiliser un système de gestion de versions pour le suivi du projet et son hébergement \nMettre en œuvre des effets CSS graphiques avancés \nMettre en place son environnement Front-End \nMettre en place une structure de navigation pour un site web"
+        "description": "Reproduction d’une maquette d’un site vitrine de restaurant  \nMise en place de SASS pour la maintenance du CSS \nMise en place de son environnement Front-End \nAssurer la cohérence graphique d'un site web \nImplémentation interface responsive \nMise en place d’une structure de navigation pour un site web \nMise en œuvre des effets CSS graphiques avancés \nUtilisation d’un système de gestion de versions pour le suivi du projet et son hébergement "
       },
       {
         "titre": "Projet 2 OC - Booki",
@@ -179,13 +188,13 @@
         "description": "Implémenter une interface responsive \nIntégrer du contenu conformément à une maquette"
       },
       {
-        "titre": "Projet 4 OC - La chouette agence",
-        "image": "img/projets/laChouetteAgence.PNG",
-        "url": "https://greg13013.github.io/P4_LaChouetteAgence/",
-        "categorie": "Openclassroom,seo",
-        "courteDescription": "Projet 4 OpenClassroom - Performance / SEO / Accessibilité",
-        "competence": "SEO - Lighthouse,CDN",
-        "description": "Écrire un code HTML et CSS maintenable \nAssurer l'accessibilité d'un site web \nOptimiser le référencement d'un site web \nRéaliser une recherche des bonnes pratiques en développement web \nOptimiser la taille et la vitesse d’un site web"
+        "titre": "Eauservicedebebe",
+        "image": "img/projets/eauservicedebebe.PNG",
+        "url": "https://eauservicedebebe.fr",
+        "categorie": "Perso,Angular",
+        "competence": "Angular",
+        "courteDescription": "Angular - Création site web avec base de données SQL (Express - Sequelize) pour des prestations et conseils pour jeunes mamans",
+        "description": "Création site web avec base de données pour des services pour jeunes mamans, \nReproduction maquette, \nUtilisation de Angular pour le front et Express pour le back, \nConnexion utilisateur - Mise en place interface pour gérer des évènements (créer, modifier, supprimer), \nMise en production sur OVH"
       },
       {
         "titre": "Site web - Jeux snake",
@@ -195,18 +204,8 @@
         "courteDescription": "Javascript - Reproduction snake",
         "competence": "Javascript",
         "description": "Reproduction du jeux snake en javascript"
-      },
-      
-      {
-        "titre": "Eauservicedebebe",
-        "image": "img/projets/eauservicedebebe.PNG",
-        "url": "https://eauservicedebebe.fr",
-        "categorie": "Perso,Angular",
-        "competence": "Angular",
-        "courteDescription": "Angular - Création site web avec base de données SQL (Express - Sequelize) pour des prestations et conseils pour jeunes mamans",
-        "description": "Création site web avec base de données pour des services pour jeunes mamans, \nReproduction maquette, \nUtilisation de Angular pour le front et Express pour le back, \nConnexion utilisateur - Mise en place interface pour gérer des évènements (créer, modifier, supprimer), \nMise en production sur OVH"
-      }
-    ]
+      }     
+      ]
   }
 }
 
