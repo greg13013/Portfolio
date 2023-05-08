@@ -27,6 +27,11 @@
     "messageCompetence": "Mes compétences techniques & mes formations",
     "experienceProfessionelle": [
       {
+        "nom": "HR-Team - Mission chez Cegid",
+        "date": "Mai 2022",
+        "description": "Temps & Frais est un projet pour les comptables de saisie des temps et frais avec un workflow de validation. \nEquipe agile composé de 4 développeurs (2 front & 2 back), un chef de projet, un architecte, une PO et un UI/UX. \n- Application React - Typescript \n- CI/CD Azure DevOps \n- Design system Cegid (MUI)"
+      },
+      {
         "nom": "Cabinet condorcet",
         "date": "Septembre 2014 - Mars 2015",
         "description": "Le métier, courtage en assurance, les outils : mise en relation client, signalements des sinistres, rappel automatique, alerte gestionnaire. \nRefonte d'un site web Wordpress pour assurer la continuité des services métiers. \n- Mise à jour framework, montée de version \n- Gestion des articles \n- Gestion des comptes \n- Gestion emailling, workflow \n- Adaptation thème HTML/CSS/PHP et module. \n- Interopérabilité avec les systèmes internes, excel, word, outlook, windows. \n- Mise en prod"
@@ -78,6 +83,15 @@
       },
       {
         "nom": "Visual Studio"
+      },
+      {
+        "nom": "Azure DevOps"
+      },
+      {
+        "nom": "Redux"
+      },
+      {
+        "nom": "Jest"
       }
     ]
   },
@@ -93,10 +107,31 @@
         "nom": "Openclassroom"
       },
       {
+        "nom": "Natam"
+      },
+      {
         "nom": "Perso"
       }
     ],
     "projets": [
+      {
+        "titre": "Natam - WinWinDeveloppement",
+        "image": "img/projets/winwin.PNG",
+        "url": "https://www.facebook.com/winwindeveloppementformation",
+        "categorie": "Natam,React, Symfony",
+        "courteDescription": "Logiciel métier de gestion de formation et d'apprentissage par le jeu React / Symfony",
+        "competence": "React,Redux, MUI,Symfony, Dolibarr, BigBlueButtom",
+        "description": "Front - React, Back - Symfony \nSolution ERP pour les organismes de formation Dolibarr \nSystème de visioconférence Bigbluebuttom \nLogiciel métier de gestion de formation et d'apprentissage par le jeu React / Symfony, \nPlusieurs jeu interactifs disponible"
+      },
+      {
+        "titre": "Natam - Close Info",
+        "image": "img/projets/closeinfo.webp",
+        "url": "https://close-info.fr/",
+        "categorie": "Natam,React, Express",
+        "courteDescription": "Application mobile - Réseau professionnel 100% dédié Closing, \nMise en relation entre closers et infopreneurs, \nDisponible sur Android & IOS",
+        "competence": "React, React Native,Redux,socket.io, Express, FCM",
+        "description": "Front - React Native, Back - Express \nRéseau professionnel 100% dédié Closing \nMise en relation entre closers et infopreneurs \nPremière communauté francophone"
+      },
       {
         "titre": "Projet 7 OC - Groupomania",
         "image": "img/projets/groupomania.PNG",
@@ -204,8 +239,7 @@
         "courteDescription": "Javascript - Reproduction snake",
         "competence": "Javascript",
         "description": "Reproduction du jeux snake en javascript"
-      }     
-      ]
+      }
+    ]
   }
 }
-
